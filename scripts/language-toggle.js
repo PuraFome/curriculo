@@ -38,6 +38,10 @@ document.addEventListener('DOMContentLoaded', () => {
             document.getElementById('project-workspaces').nextSibling.textContent = ' - Repository to record the evolution in the use of the NX tool, as well as in Typescript, NestJS, and React, in addition to the use of CI and unit tests.';
             document.getElementById('project-purepages').nextSibling.textContent = ' - Monorepository using NX to create multiple landing pages in a short period of time, reusing components between pages.';
             document.getElementById('footer-text').textContent = '© 2024 José Samuel Pereira. All rights reserved.';
+            document.getElementById('SDG4').src = 'figs/objetivo-4.svg';
+            document.getElementById('SDG5').src = 'figs/objetivo-5.svg';
+            document.getElementById('SDG7').src = 'figs/objetivo-7.svg';
+            document.getElementById('SDG8').src = 'figs/objetivo-8.svg';
             languageIcon.src = 'figs/flag_pt.png';
             languageIcon.alt = 'Portuguese';
             languageToggle.classList.add('pt');
@@ -77,6 +81,10 @@ document.addEventListener('DOMContentLoaded', () => {
             document.getElementById('project-workspaces').nextSibling.textContent = ' - Repositório para registrar a evolução no uso da ferramenta NX, bem como em Typescript, NestJS e React, além do uso de CI e testes unitários.';
             document.getElementById('project-purepages').nextSibling.textContent = ' - Monorepositório usando NX para criar múltiplas landing pages em curto período de tempo, reaproveitando componentes entre as páginas.';
             document.getElementById('footer-text').textContent = '© 2024 José Samuel Pereira. Todos os direitos reservados.';
+            document.getElementById('SDG4').src = 'figs/objetivo-4-en.png';
+            document.getElementById('SDG5').src = 'figs/objetivo-5-en.png';
+            document.getElementById('SDG7').src = 'figs/objetivo-7-en.png';
+            document.getElementById('SDG8').src = 'figs/objetivo-8-en.png';
             languageIcon.src = 'figs/flag_en.png';
             languageIcon.alt = 'English';
             languageToggle.classList.remove('pt');
