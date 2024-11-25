@@ -45,23 +45,10 @@ Este projeto é um currículo online desenvolvido para apresentar as informaçõ
 
 ## Acesso ao Projeto
 
-Você pode acessar o código fonte do projeto [aqui](https://github.com/PuraFome/curriculo).
+Você pode acessar o projeto [aqui](https://purafome.github.io/curriculo/).
 
 ## Tecnologias Utilizadas
 
 - HTML
 - CSS
 - JavaScript
-
-## Pessoas Contribuidoras
-
-Até o momento, não há contribuições externas para este projeto.
-
-## Pessoas Desenvolvedoras do Projeto
-
-| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/your-github-username?v=4" width=115><br><sub>José Samuel Pereira</sub>](https://github.com/PuraFome) |
-| :---: |
-
-## Licença
-
-Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
