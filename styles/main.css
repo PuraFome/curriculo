@@ -1,0 +1,279 @@
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #FAFAFA;
+  color: #212121;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #00796B;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+header figure {
+  margin: 10px 0 0;
+}
+
+header figure img {
+  border-radius: 50%;
+  border: 3px solid #fff;
+}
+
+a {
+  color: #E91E63;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#theme-toggle {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+nav ul li {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap; /* Adicionado para permitir quebra de linha em telas menores */
+}
+
+nav ul li span {
+  margin-right: 10px;
+  font-size: 1.2em;
+}
+
+nav ul li p {
+  display: inline;
+  margin-right: 5px;
+  font-weight: bold;
+  margin: 0; /* Removido o margin-right */
+}
+
+nav ul li a {
+  display: inline;
+  margin-left: 5px; /* Adicionado para espaçamento entre o nome e o link */
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin: 5px 0; /* Diminuído para reduzir o espaço entre os itens */
+  flex-direction: row;
+}
+
+.contact-item span {
+  margin-right: 10px;
+  font-size: 1.2em;
+}
+
+contact-item p {
+  display: inline;
+  margin-right: 5px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.contact-item a {
+  display: inline;
+  margin-left: 5px;
+}
+
+section {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+section + section {
+  margin-top: 10px; /* Adicionado para diminuir o espaço entre seções */
+}
+
+section h2 {
+  border-bottom: 2px solid #00796B;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+  font-size: 1.8em;
+}
+
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.grid-container figure {
+  margin: 0;
+  text-align: center;
+}
+
+.grid-container img {
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+ol, ul {
+  padding-left: 20px;
+}
+
+dl {
+  margin: 0;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin: 0 0 10px 0;
+}
+
+body.dark-mode {
+  background: #2E2E2E;
+  color: #FFFFFF;
+}
+
+body.dark-mode header {
+  background-color: #7CB342;
+}
+
+body.dark-mode a {
+  color: #03DAC6;
+}
+
+body.dark-mode nav ul li {
+  color: #fff;
+}
+
+.no-margin {
+  margin-top: 0;
+}
+
+.no-padding-top {
+  padding-top: 0;
+}
+
+.no-margin-top {
+  margin-top: 0;
+}
+
+.no-margin-bottom {
+  margin-bottom: 0;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.skills-list {
+  column-count: 2;
+  column-gap: 20px;
+}
+
+.skills-list li {
+  break-inside: avoid;
+}
+
+.courses-list {
+  column-count: 2;
+  column-gap: 20px;
+}
+
+.courses-list dd {
+  break-inside: avoid;
+}
+
+.university {
+  font-weight: bold;
+  color: #00796B;
+}
+
+body.dark-mode .university {
+  color: #B2FF59; /* Tom bem claro de verde */
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #00796B;
+  color: #fff;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+footer p {
+  margin: 0;
+}
+
+body.dark-mode footer {
+  background-color: #7CB342; /* Mesma cor do cabeçalho no modo escuro */
+}
+
+section:last-of-type {
+  padding-bottom: 60px; /* Aumentado para dar mais espaço antes do footer */
+}
+
+#language-toggle {
+    position: absolute;
+    top: 4px;
+    left: 50px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+.toggle-buttons {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+#theme-toggle, #language-toggle {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+#language-toggle.en img {
+  padding-top: 5px;
+  padding-left: 5px;
+  width: auto;
+  height: 40px;
+}
+
+#language-toggle.pt img {
+  width: auto;
+  height: 50px;
+}
