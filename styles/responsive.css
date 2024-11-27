@@ -1,22 +1,19 @@
 @media (max-width: 768px) {
   header {
     text-align: left;
-    padding: 10px;
+    padding: 10px 5%; 
   }
 
   .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
     gap: 10px;
+    padding: 0 10%; 
   }
 
-  nav ul li {
+  ul li {
     flex-direction: column;
     align-items: flex-start;
-  }
-
-  nav ul li a {
-    margin-top: 5px;
   }
 
   .toggle-buttons {
@@ -33,10 +30,38 @@
     left: auto;
   }
   
-  
   #language-toggle {
     top: 54px;
     right: 10px;
     left: auto;
   }
+
+  .skills-list {
+    padding: 0 10%;
+  }
+
+  .padding-left {
+    padding-left: 10%;
+  }
+
+  #professional-profile-text {
+    padding-right: 10%;
+  }
+
+  #degree {
+    padding-right: 5%;
+  }
+
+  #university {
+    margin-left: 5%;
+  }
+
+  .courses-list dd {
+    margin-left: 10%;
+  }
+
+  section h2 {
+    padding-left: 5%;
+  }
+
 }

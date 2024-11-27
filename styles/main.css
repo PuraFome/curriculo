@@ -25,7 +25,10 @@ header figure {
 }
 
 header figure img {
-  border-radius: 50%;
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
   border: 3px solid #fff;
 }
 
@@ -49,68 +52,62 @@ a:hover {
   cursor: pointer;
 }
 
-nav ul {
+ul {
   list-style: none;
-  padding: 0;
-  margin: 20px 0;
 }
 
-nav ul li {
+ul li {
   display: flex;
   align-items: center;
-  margin: 10px 0;
-  flex-wrap: wrap; /* Adicionado para permitir quebra de linha em telas menores */
+  margin: 10px, 0;
+  flex-wrap: wrap;
 }
 
-nav ul li span {
+ul li span {
   margin-right: 10px;
   font-size: 1.2em;
 }
 
-nav ul li p {
-  display: inline;
-  margin-right: 5px;
-  font-weight: bold;
-  margin: 0; /* Removido o margin-right */
-}
-
-nav ul li a {
-  display: inline;
-  margin-left: 5px; /* Adicionado para espaçamento entre o nome e o link */
-}
-
-.contact-item {
-  display: flex;
-  align-items: center;
-  margin: 5px 0; /* Diminuído para reduzir o espaço entre os itens */
-  flex-direction: row;
-}
-
-.contact-item span {
-  margin-right: 10px;
-  font-size: 1.2em;
-}
-
-contact-item p {
+ul li p {
   display: inline;
   margin-right: 5px;
   font-weight: bold;
   margin: 0;
 }
 
-.contact-item a {
+ul li a {
   display: inline;
   margin-left: 5px;
 }
 
+.contact-item {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.contact-item span {
+  font-size: 1.2em;
+}
+
+contact-item p {
+  display: inline;
+  font-weight: bold;
+  margin: 0;
+}
+
+.contact-item a {
+  display: inline;
+}
+
 section {
-  padding: 20px;
   max-width: 800px;
   margin: auto;
 }
 
-section + section {
-  margin-top: 10px; /* Adicionado para diminuir o espaço entre seções */
+section+section {
+  margin-top: 10px;
+  /* Adicionado para diminuir o espaço entre seções */
 }
 
 section h2 {
@@ -137,20 +134,12 @@ section h2 {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-ol, ul {
-  padding-left: 20px;
-}
-
 dl {
   margin: 0;
 }
 
 dt {
   font-weight: bold;
-}
-
-dd {
-  margin: 0 0 10px 0;
 }
 
 body.dark-mode {
@@ -170,33 +159,26 @@ body.dark-mode nav ul li {
   color: #fff;
 }
 
-.no-margin {
-  margin-top: 0;
-}
-
-.no-padding-top {
-  padding-top: 0;
-}
-
-.no-margin-top {
-  margin-top: 0;
-}
-
-.no-margin-bottom {
-  margin-bottom: 0;
-}
-
-.no-padding {
-  padding: 0;
-}
-
 .skills-list {
   column-count: 2;
-  column-gap: 20px;
+  column-gap: 30px;
+  padding: 0 5%;
+  list-style: none;
 }
 
-.skills-list li {
-  break-inside: avoid;
+.skill-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.skill-item img {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.skill-item dd{
+  margin-inline-start: 2px;
 }
 
 .courses-list {
@@ -214,7 +196,7 @@ body.dark-mode nav ul li {
 }
 
 body.dark-mode .university {
-  color: #B2FF59; /* Tom bem claro de verde */
+  color: #B2FF59;
 }
 
 footer {
@@ -232,22 +214,24 @@ footer p {
 }
 
 body.dark-mode footer {
-  background-color: #7CB342; /* Mesma cor do cabeçalho no modo escuro */
+  background-color: #7CB342;
+  /* Mesma cor do cabeçalho no modo escuro */
 }
 
 section:last-of-type {
-  padding-bottom: 60px; /* Aumentado para dar mais espaço antes do footer */
+  padding-bottom: 60px;
+  /* Aumentado para dar mais espaço antes do footer */
 }
 
 #language-toggle {
-    position: absolute;
-    top: 4px;
-    left: 50px;
-    background: none;
-    border: none;
-    font-size: 24px;
-    cursor: pointer;
-  }
+  position: absolute;
+  top: 4px;
+  left: 50px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
 
 .toggle-buttons {
   display: flex;
@@ -257,7 +241,8 @@ section:last-of-type {
   left: 10px;
 }
 
-#theme-toggle, #language-toggle {
+#theme-toggle,
+#language-toggle {
   background: none;
   border: none;
   font-size: 24px;
@@ -277,3 +262,8 @@ section:last-of-type {
   width: auto;
   height: 50px;
 }
+
+.padding-left {
+  padding-left: 3%;
+}
+

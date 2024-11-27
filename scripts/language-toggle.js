@@ -23,6 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
             document.getElementById('linkedin-label').textContent = 'LinkedIn:';
             document.getElementById('github-label').textContent = 'GitHub:';
             document.getElementById('whatsapp-label').textContent = 'WhatsApp:';
+            document.getElementById('fone-number').textContent = '+55 (44) 98457-5871';
             document.getElementById('university').textContent = 'UTFPR - Federal University of Technology - Paraná';
             document.getElementById('courses-title').textContent = 'Courses at Alura';
             document.getElementById('professional-profile-text').textContent = 'Software Engineer with experience in web development, front-end and back-end. Communicative, punctual, and creative, with strong problem-solving skills. Adaptable to changes, with team spirit, quick learning, and active participation. Extroverted and proactive, passionate about technology and innovation, always seeking to learn new skills and contribute effectively to challenging projects and team success.';
@@ -42,7 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
             document.getElementById('SDG5').src = 'figs/objetivo-5.svg';
             document.getElementById('SDG7').src = 'figs/objetivo-7.svg';
             document.getElementById('SDG8').src = 'figs/objetivo-8.svg';
-            languageIcon.src = 'figs/flag_pt.png';
+            languageIcon.src = 'icons/flag_pt.png';
             languageIcon.alt = 'Portuguese';
             languageToggle.classList.add('pt');
             languageToggle.classList.remove('en');
@@ -66,6 +67,7 @@ document.addEventListener('DOMContentLoaded', () => {
             document.getElementById('linkedin-label').textContent = 'Linkedin:';
             document.getElementById('github-label').textContent = 'Github:';
             document.getElementById('whatsapp-label').textContent = 'WhatsApp:';
+            document.getElementById('fone-number').textContent = '(44) 98457-5871';
             document.getElementById('university').textContent = 'UTFPR - Universidade Tecnológica Federal do Paraná';
             document.getElementById('courses-title').textContent = 'Cursos na Alura';
             document.getElementById('professional-profile-text').textContent = 'Engenheiro de Software com experiência em desenvolvimento web, front-end e back-end. Comunicativo, pontual e criativo, com forte capacidade de resolver problemas. Adaptável a mudanças, com espírito de equipe, rápido aprendizado e participação ativa. Extrovertido e proativo, apaixonado por tecnologia e inovação, sempre buscando aprender novas habilidades e contribuir de maneira eficaz para projetos desafiadores e o sucesso da equipe.';
@@ -85,7 +87,7 @@ document.addEventListener('DOMContentLoaded', () => {
             document.getElementById('SDG5').src = 'figs/objetivo-5-en.png';
             document.getElementById('SDG7').src = 'figs/objetivo-7-en.png';
             document.getElementById('SDG8').src = 'figs/objetivo-8-en.png';
-            languageIcon.src = 'figs/flag_en.png';
+            languageIcon.src = 'icons/flag_en.png';
             languageIcon.alt = 'English';
             languageToggle.classList.remove('pt');
             languageToggle.classList.add('en');
