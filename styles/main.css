@@ -8,7 +8,7 @@ body {
 }
 
 header {
-  background-color: #00796B;
+  background-color: #1A237E;
   color: #fff;
   padding: 20px;
   text-align: center;
@@ -33,7 +33,7 @@ header figure img {
 }
 
 a {
-  color: #E91E63;
+  color: #5C6BC0;
   text-decoration: none;
 }
 
@@ -90,7 +90,7 @@ ul li a {
   font-size: 1.2em;
 }
 
-contact-item p {
+.contact-item p {
   display: inline;
   font-weight: bold;
   margin: 0;
@@ -111,7 +111,7 @@ section+section {
 }
 
 section h2 {
-  border-bottom: 2px solid #00796B;
+  border-bottom: 2px solid #1A237E;
   padding-bottom: 5px;
   margin-bottom: 20px;
   font-size: 1.8em;
@@ -148,7 +148,7 @@ body.dark-mode {
 }
 
 body.dark-mode header {
-  background-color: #051c43;
+  background-color: #0D1050;
 }
 
 body.dark-mode a {
@@ -164,7 +164,7 @@ body.dark-mode .university {
 }
 
 body.dark-mode footer {
-  background-color: #051c43;
+  background-color: #0D1050;
 }
 
 .skills-list {
@@ -200,7 +200,7 @@ body.dark-mode footer {
 
 .university {
   font-weight: bold;
-  color: #00796B;
+  color: #1A237E;
 }
 
 body.dark-mode .university {
@@ -210,7 +210,7 @@ body.dark-mode .university {
 footer {
   text-align: center;
   padding: 10px;
-  background-color: #00796B;
+  background-color: #1A237E;
   color: #fff;
   position: fixed;
   width: 100%;
@@ -222,12 +222,16 @@ footer p {
 }
 
 body.dark-mode footer {
-  background-color: #051c43;
+  background-color: #0D1050;
   /* Mesma cor do cabeçalho no modo escuro */
 }
 
+body.dark-mode section h2 {
+  border-bottom-color: #3949AB;
+}
+
 section:last-of-type {
-  padding-bottom: 60px;
+  padding-bottom: 120px;
   /* Aumentado para dar mais espaço antes do footer */
 }
 

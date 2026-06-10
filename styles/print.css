@@ -1,0 +1,29 @@
+@page {
+  size: A4;
+  margin: 20mm;
+}
+
+@media print {
+  .toggle-buttons, #export-pdf, header figure, footer {
+    display: none !important;
+  }
+  header {
+    background: white !important;
+    color: black !important;
+    padding: 0;
+    text-align: left;
+    box-shadow: none;
+    border-bottom: 3px solid #1A237E;
+    position: static;
+  }
+  header h1 { color: #1A237E; font-size: 26pt; }
+  a[href^="http"]::after {
+    content: " (" attr(href) ")";
+    font-size: 0.8em; color: #555;
+  }
+  img { border-radius: 0 !important; box-shadow: none !important; }
+  body { background: white !important; color: #333 !important; }
+  body.dark-mode section h2 { border-bottom-color: #1A237E !important; }
+  section { page-break-inside: avoid; max-width: 100%; margin: 0; padding: 0; }
+  section:last-of-type { padding-bottom: 0; }
+}
