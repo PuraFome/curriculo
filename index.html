@@ -30,6 +30,9 @@
             width="24"
           />
         </button>
+        <button id="export-pdf" onclick="window.print()" title="Exportar PDF">
+          <span class="material-icons-outlined">picture_as_pdf</span>
+        </button>
       </div>
       <h1 id="name">José Samuel Pereira</h1>
       <figure>
@@ -39,7 +42,7 @@
     <section>
       <h2 id="personal-info-title">Informações Pessoais</h2>
       <ul class="padding-left">
-        <li id="age">Idade: 24 anos</li>
+        <li id="age">Idade: 26 anos</li>
         <li id="city">Cidade: Cornélio Procópio, Paraná</li>
         <li id="nationality">Nacionalidade: Brasil</li>
         <li id="languages">
@@ -79,6 +82,11 @@
           >
         </li>
         <li class="contact-item">
+          <span class="material-icons-outlined">language</span>
+          <p id="portfolio-label">Portfólio:</p>
+          <a href="https://purafome.github.io/curriculo/" title="Currículo Online" target="_blank" id="portfolio-link">Currículo Online</a>
+        </li>
+        <li class="contact-item">
           <span class="material-icons-outlined">call</span>
           <p id="whatsapp-label">WhatsApp:</p>
           <a
@@ -103,7 +111,7 @@
         equipe.
       </p>
     </section>
-    <section>
+    <section id="sdgs">
       <h2 id="sdgs-title">ODS que pretendo contribuir</h2>
       <div class="grid-container">
         <figure>
@@ -139,58 +147,140 @@
           />
         </figure>
       </div>
-
+    </section>
+    <section id="skills">
       <h2 id="skills-title">Habilidades</h2>
-      <ul class="skills-list">
-        <div class="skill-item">
-          <img src="icons/frontend.png" alt="Frontend Icon" width="24" />
-          <li id="frontend">Desenvolvimento Web Front-end</li>
-        </div>
-        <div class="skill-item">
-          <img src="icons/backend.png" alt="Backend Icon" width="24" />
-          <li id="backend">Desenvolvimento Web back-end</li>
-        </div>
-        <div class="skill-item">
-          <img src="icons/database.png" alt="Database Icon" width="24" />
-          <li id="database">Arquitetura de Banco de dados</li>
-        </div>
-        <div class="skill-item">
-          <img src="icons/postgre.png" alt="Postgre Icon" width="24" />
-          <li>PostgreSql</li>
-        </div>
-        <div class="skill-item">
-          <img src="icons/react.png" alt="React Icon" width="24" />
-          <li>React</li>
-        </div>
-        <div class="skill-item">
-          <img src="icons/angular.png" alt="Angular Icon" width="24" />
-          <li>Angular</li>
-        </div>
-        <div class="skill-item">
-          <img src="icons/python.png" alt="Python Icon" width="24" />
-          <li>Python</li>
-        </div>
-        <div class="skill-item">
-          <img src="icons/linux.png" alt="Linux Icon" width="24" />
-          <li>Linux</li>
-        </div>
-        <div class="skill-item">
-          <img src="icons/docker.png" alt="Docker Icon" width="24" />
-          <li>Docker</li>
-        </div>
-        <div class="skill-item">
-          <img src="icons/nodejs.png" alt="Node.js Icon" width="24" />
-          <li>Node.js</li>
-        </div>
-        <div class="skill-item">
-          <img src="icons/Nest.js.svg" alt="TypeScript Icon" width="24" />
-          <li>Nest.js</li>
-        </div>
-        <div class="skill-item">
-          <img src="icons/typescript.png" alt="TypeScript Icon" width="24" />
-          <li>TypeScript</li>
-        </div>
-      </ul>
+
+      <div class="skill-category">
+        <h3 class="skill-category-title">
+          <img src="icons/category-languages.svg" class="skill-category-icon" width="24" />
+          <span id="skill-cat-languages">Linguagens de Programação</span>
+        </h3>
+        <ul class="skill-items">
+          <li class="skill-item">
+            <img src="icons/typescript.png" alt="TypeScript Icon" width="24" />
+            <span id="skill-lang-typescript">TypeScript</span>
+          </li>
+          <li class="skill-item">
+            <span class="material-icons-outlined" style="font-size:24px">code</span>
+            <span id="skill-lang-javascript">JavaScript</span>
+          </li>
+          <li class="skill-item">
+            <img src="icons/python.png" alt="Python Icon" width="24" />
+            <span id="skill-lang-python">Python</span>
+          </li>
+          <li class="skill-item">
+            <span class="material-icons-outlined" style="font-size:24px">code</span>
+            <span id="skill-lang-java">Java</span>
+          </li>
+          <li class="skill-item">
+            <span class="material-icons-outlined" style="font-size:24px">code</span>
+            <span id="skill-lang-csharp">C#</span>
+          </li>
+          <li class="skill-item">
+            <span class="material-icons-outlined" style="font-size:24px">code</span>
+            <span id="skill-lang-cpp">C++</span>
+          </li>
+          <li class="skill-item">
+            <span class="material-icons-outlined" style="font-size:24px">storage</span>
+            <span id="skill-lang-sql">SQL</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="skill-category">
+        <h3 class="skill-category-title">
+          <img src="icons/category-frameworks.svg" class="skill-category-icon" width="24" />
+          <span id="skill-cat-frameworks">Frameworks</span>
+        </h3>
+        <ul class="skill-items">
+          <li class="skill-item">
+            <img src="icons/react.png" alt="React Icon" width="24" />
+            <span id="skill-fwk-react">React</span>
+          </li>
+          <li class="skill-item">
+            <img src="icons/angular.png" alt="Angular Icon" width="24" />
+            <span id="skill-fwk-angular">Angular</span>
+          </li>
+          <li class="skill-item">
+            <img src="icons/Nest.js.svg" alt="Nest.js Icon" width="24" />
+            <span id="skill-fwk-nestjs">Nest.js</span>
+          </li>
+          <li class="skill-item">
+            <img src="icons/nodejs.png" alt="Node.js Icon" width="24" />
+            <span id="skill-fwk-nodejs">Node.js</span>
+          </li>
+          <li class="skill-item">
+            <span class="material-icons-outlined" style="font-size:24px">code</span>
+            <span id="skill-fwk-springboot">Spring Boot</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="skill-category">
+        <h3 class="skill-category-title">
+          <img src="icons/category-data.svg" class="skill-category-icon" width="24" />
+          <span id="skill-cat-data">Dados</span>
+        </h3>
+        <ul class="skill-items">
+          <li class="skill-item">
+            <img src="icons/postgre.png" alt="PostgreSQL Icon" width="24" />
+            <span id="skill-data-postgresql">PostgreSQL</span>
+          </li>
+          <li class="skill-item">
+            <span class="material-icons-outlined" style="font-size:24px">bar_chart</span>
+            <span id="skill-data-powerbi">Power BI</span>
+          </li>
+          <li class="skill-item">
+            <span class="material-icons-outlined" style="font-size:24px">account_tree</span>
+            <span id="skill-data-modelagem">Modelagem de Banco de Dados</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="skill-category">
+        <h3 class="skill-category-title">
+          <img src="icons/category-infra.svg" class="skill-category-icon" width="24" />
+          <span id="skill-cat-infra">Infra &amp; Ferramentas</span>
+        </h3>
+        <ul class="skill-items">
+          <li class="skill-item">
+            <img src="icons/docker.png" alt="Docker Icon" width="24" />
+            <span id="skill-infra-docker">Docker</span>
+          </li>
+          <li class="skill-item">
+            <span class="material-icons-outlined" style="font-size:24px">fork_right</span>
+            <span id="skill-infra-git">Git</span>
+          </li>
+          <li class="skill-item">
+            <img src="icons/linux.png" alt="Linux Icon" width="24" />
+            <span id="skill-infra-linux">Linux</span>
+          </li>
+          <li class="skill-item">
+            <span class="material-icons-outlined" style="font-size:24px">description</span>
+            <span id="skill-infra-jasper">Jasper</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="skill-category">
+        <h3 class="skill-category-title">
+          <img src="icons/category-languages-spoken.svg" class="skill-category-icon" width="24" />
+          <span id="skill-cat-languages-spoken">Idiomas</span>
+        </h3>
+        <ul class="skill-items">
+          <li class="skill-item">
+            <span class="material-icons-outlined" style="font-size:24px">translate</span>
+            <span id="skill-spoken-portuguese">Português (Nativo)</span>
+          </li>
+          <li class="skill-item">
+            <span class="material-icons-outlined" style="font-size:24px">translate</span>
+            <span id="skill-spoken-english">Inglês (Intermediário)</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section id="education">
       <h2 id="education-title">Educação</h2>
       <dl class="padding-left">
         <dt id="degree">Graduação em Engenharia de Software - em andamento</dt>
@@ -200,52 +290,95 @@
             UTFPR - Universidade Tecnológica Federal do Paraná
           </dd>
         </div>
+        <dt id="math-degree">Bacharelado em Matemática Pura</dt>
+        <div class="skill-item">
+          <img id="university-img-math" src="icons/utfpr.png" alt="UTFPR Icon" width="24" />
+          <dd id="math-status" class="university">
+            UTFPR - Universidade Tecnológica Federal do Paraná (Incompleto)
+          </dd>
+        </div>
         <dt id="courses-title">Cursos na Alura</dt>
         <div class="courses-list">
           <div class="skill-item">
             <img src="icons/postgre.png" alt="Postgre Icon" width="24" />
-            <dd>PostgreSql</li>
+            <dd>PostgreSql</dd>
           </div>
           <div class="skill-item">
             <img src="icons/react.png" alt="React Icon" width="24" />
-            <dd>React</li>
+            <dd>React</dd>
           </div>
           <div class="skill-item">
             <img src="icons/angular.png" alt="Angular Icon" width="24" />
-            <dd>Angular</li>
+            <dd>Angular</dd>
           </div>
           <div class="skill-item">
             <img src="icons/python.png" alt="Python Icon" width="24" />
-            <dd>Python</li>
+            <dd>Python</dd>
           </div>
           <div class="skill-item">
             <img src="icons/linux.png" alt="Linux Icon" width="24" />
-            <dd>Linux</li>
+            <dd>Linux</dd>
           </div>
           <div class="skill-item">
             <img src="icons/docker.png" alt="Docker Icon" width="24" />
-            <dd>Docker</li>
+            <dd>Docker</dd>
           </div>
           <div class="skill-item">
             <img src="icons/nodejs.png" alt="Node.js Icon" width="24" />
-            <dd>Node.js</li>
+            <dd>Node.js</dd>
           </div>
           <div class="skill-item">
             <img src="icons/typescript.png" alt="TypeScript Icon" width="24" />
-            <dd>TypeScript</li>
+            <dd>TypeScript</dd>
           </div>
         </div>
       </dl>
+    </section>
+    <section id="experience">
       <h2 id="experience-title">Experiência</h2>
-      <ul class="padding-left">
-        <li id="internship">
-          Estágio de Suporte Técnico - 11/2021 à 01/2022 - Tributech.
-        </li>
-        <li id="support">Suporte Técnico - 01/2022 à 08/2022 - Tributech.</li>
-        <li id="fullstack">
-          Programador Full Stack - 08/2022 à 08/2023 - Tributech.
-        </li>
-      </ul>
+      <div class="experience-item">
+        <div class="experience-header">
+          <span class="job-title" id="job-fullstack-title">Programador Full Stack</span>
+          <span class="job-date" id="job-fullstack-date">Set 2022 – Set 2023</span>
+        </div>
+        <div class="experience-company">
+          <span class="company-name" id="job-fullstack-company">Tributech</span>
+        </div>
+        <ul class="experience-bullets" id="job-fullstack-bullets">
+          <li id="exp-fs-1">Responsável pelo ciclo completo de desenvolvimento: levantamento de requisitos, modelagem arquitetural, implementação e manutenção contínua de sistemas</li>
+          <li id="exp-fs-2">Desenvolvimento full stack com Angular (front-end), Java/Spring Boot (back-end) e PostgreSQL (banco de dados)</li>
+          <li id="exp-fs-3">Integração de APIs RESTful para comunicação eficiente entre sistemas internos e externos</li>
+          <li id="exp-fs-4">Definição de padrões de código, boas práticas e arquitetura técnica para novos projetos</li>
+        </ul>
+      </div>
+      <div class="experience-item">
+        <div class="experience-header">
+          <span class="job-title" id="job-support-title">Suporte de Banco de Dados</span>
+          <span class="job-date" id="job-support-date">Mar 2022 – Set 2022</span>
+        </div>
+        <div class="experience-company">
+          <span class="company-name" id="job-support-company">Tributech</span>
+        </div>
+        <ul class="experience-bullets" id="job-support-bullets">
+          <li id="exp-sup-1">Monitoramento ativo e resolução de chamados técnicos, garantindo alta disponibilidade dos dados</li>
+          <li id="exp-sup-2">Otimização de consultas complexas em PostgreSQL para performance em extração de relatórios</li>
+          <li id="exp-sup-3">Configuração e preparação de ambientes de trabalho para operações da equipe de engenharia</li>
+        </ul>
+      </div>
+      <div class="experience-item">
+        <div class="experience-header">
+          <span class="job-title" id="job-intern-title">Estagiário de Tecnologia</span>
+          <span class="job-date" id="job-intern-date">Jan 2022 – Mar 2022</span>
+        </div>
+        <div class="experience-company">
+          <span class="company-name" id="job-intern-company">Tributech</span>
+        </div>
+        <ul class="experience-bullets" id="job-intern-bullets">
+          <li id="exp-int-1">Suporte técnico aos softwares internos e preparação de ambientes de trabalho</li>
+          <li id="exp-int-2">Criação e execução de queries PostgreSQL para extração de dados estratégicos</li>
+          <li id="exp-int-3">Promovido em apenas 2 meses à equipe de Banco de Dados devido à proatividade</li>
+        </ul>
+      </div>
     </section>
     <section>
       <h2 id="projects-title">Projetos</h2>
@@ -296,7 +429,7 @@
     </section>
     <footer>
       <p id="footer-text">
-        © 2024 José Samuel Pereira. Todos os direitos reservados.
+        © 2026 José Samuel Pereira. Todos os direitos reservados.
       </p>
     </footer>
   </body>
