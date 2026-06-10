@@ -8,4 +8,7 @@
 package.json
 package-lock.json
 
+# Playwright temp artifacts
+.playwright-mcp/
+
 
