@@ -1,0 +1,11 @@
+# OpenCode AI agent configs
+.omo/
+
+# VS Code editor settings
+.vscode/
+
+# npm (empty, no dependencies)
+package.json
+package-lock.json
+
+
