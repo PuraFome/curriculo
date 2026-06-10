@@ -1,54 +1,71 @@
-<h1 align="center">José Samuel - Currículo</h1>
+# José Samuel Pereira - Currículo / Resume
 
-<p align="center">
-  <img src="figs/foto_perfil.jpg" alt="Foto de perfil" width="100" />
-</p>
+[![Status](https://img.shields.io/badge/status-em%20desenvolvimento-green)](https://purafome.github.io/curriculo/)
 
-<p align="center">
-  <img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
-</p>
+![Screenshot](figs/screenshot.png)
 
-# Índice
+---
 
-* [Descrição do Projeto](#descrição-do-projeto)
-* [Status do Projeto](#status-do-projeto)
-* [Funcionalidades e Demonstração da Aplicação](#funcionalidades-e-demonstração-da-aplicação)
-* [Acesso ao Projeto](#acesso-ao-projeto)
-* [Tecnologias Utilizadas](#tecnologias-utilizadas)
-* [Pessoas Contribuidoras](#pessoas-contribuidoras)
-* [Pessoas Desenvolvedoras do Projeto](#pessoas-desenvolvedoras)
-* [Licença](#licença)
+## 🇧🇷 Português
 
-## Descrição do Projeto
+### Sobre o Projeto
 
-Este projeto é um currículo online desenvolvido para apresentar as informações profissionais e pessoais de José Samuel Pereira. O objetivo principal é fornecer uma visão clara e organizada das habilidades, experiências e projetos realizados.
+Currículo online desenvolvido com HTML, CSS e JavaScript puros -- sem frameworks ou dependências externas. Hospedado no GitHub Pages.
 
-## Status do Projeto
+### Funcionalidades
 
-<h4 align="center"> 
-    :construction:  Projeto em construção  :construction:
-</h4>
+- 🌙 Alternar tema claro/escuro
+- 🌐 Alternar idioma português/inglês
+- 🖨️ Exportar para PDF (impressão)
+- 📱 Layout responsivo
 
-## Funcionalidades e Demonstração da Aplicação
+### Tecnologias
 
-### :hammer: Funcionalidades do projeto
+- HTML5, CSS3, JavaScript (vanilla)
 
-- `Alternar Tema`: Permite alternar entre o modo claro e escuro.
-- `Alternar Idioma`: Permite alternar entre os idiomas Português e Inglês.
-- `Exibir Informações Pessoais`: Mostra informações pessoais como idade, cidade, nacionalidade e idiomas.
-- `Exibir Contato`: Mostra informações de contato como email, LinkedIn, GitHub e WhatsApp.
-- `Exibir Perfil Profissional`: Mostra um resumo do perfil profissional.
-- `Exibir Habilidades`: Lista as habilidades técnicas.
-- `Exibir Educação`: Lista a formação acadêmica e cursos realizados.
-- `Exibir Experiência`: Lista as experiências profissionais.
-- `Exibir Projetos`: Lista os projetos realizados com links para os repositórios no GitHub.
+### Status do Projeto
 
-## Acesso ao Projeto
+🚧 Em desenvolvimento -- melhorias contínuas de conteúdo e design.
 
-Você pode acessar o projeto [aqui](https://purafome.github.io/curriculo/).
+### Acesso
 
-## Tecnologias Utilizadas
+🔗 [https://purafome.github.io/curriculo/](https://purafome.github.io/curriculo/)
 
-- HTML
-- CSS
-- JavaScript
+---
+
+## 🇬🇧 English
+
+### About the Project
+
+Online resume built with pure HTML, CSS, and JavaScript -- no frameworks or external dependencies. Hosted on GitHub Pages.
+
+### Features
+
+- 🌙 Dark/light theme toggle
+- 🌐 Portuguese/English language toggle
+- 🖨️ Export to PDF (print)
+- 📱 Responsive layout
+
+### Technologies
+
+- HTML5, CSS3, JavaScript (vanilla)
+
+### Project Status
+
+🚧 In development -- continuous content and design improvements.
+
+### Live Demo
+
+🔗 [https://purafome.github.io/curriculo/](https://purafome.github.io/curriculo/)
+
+---
+
+## Author
+
+- **José Samuel Pereira** - [@PuraFome](https://github.com/PuraFome)
+- 📧 josesamuel@alunos.utfpr.edu.br
+- 💼 [LinkedIn](https://www.linkedin.com/in/jos%C3%A9-samuel-pereira-6890a9247/)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
