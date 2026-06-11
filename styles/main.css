@@ -8,6 +8,7 @@ body {
 }
 
 header {
+  position: relative;
   background-color: #1A237E;
   color: #fff;
   padding: 20px;
@@ -42,9 +43,6 @@ a:hover {
 }
 
 #theme-toggle {
-  position: absolute;
-  top: 10px;
-  left: 10px;
   background: none;
   border: none;
   color: #fff;
@@ -223,6 +221,8 @@ section:last-of-type {
 .toggle-buttons {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  gap: 8px;
   position: absolute;
   top: 10px;
   left: 10px;
@@ -315,6 +315,17 @@ body.dark-mode .skill-category-title {
 
 body.dark-mode .skill-item img[src$=".png"] {
   filter: brightness(1.7) contrast(1.2);
+}
+
+body.dark-mode .skill-category-icon {
+  filter: brightness(0) invert(1);
+}
+
+body.dark-mode .skill-item img[src$="java.svg"],
+body.dark-mode .skill-item img[src$="csharp.svg"],
+body.dark-mode .skill-item img[src$="cplusplus.svg"],
+body.dark-mode .skill-item img[src$="sqlite.svg"] {
+  filter: brightness(0) invert(1);
 }
 
 .skill-category-icon {

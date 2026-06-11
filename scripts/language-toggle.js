@@ -53,7 +53,7 @@ const translations = {
 
     // Math degree
     'math-degree': 'Bacharelado em Matemática Pura',
-    'math-status': 'UTFPR - Universidade Tecnológica Federal do Paraná (Incompleto)',
+    'math-status': 'UEM - Universidade Estadual de Maringá (Incompleto)',
 
     // Portfolio
     'portfolio-label': 'Portfólio:',
@@ -140,7 +140,7 @@ const translations = {
 
     // Math degree
     'math-degree': 'Bachelor\'s in Pure Mathematics',
-    'math-status': 'UTFPR - Federal University of Technology - Paraná (Incomplete)',
+    'math-status': 'UEM - State University of Maringá (Incomplete)',
 
     // Portfolio
     'portfolio-label': 'Portfolio:',
@@ -227,7 +227,7 @@ const translations = {
 
     // Math degree
     'math-degree': 'Licenciatura en Matemáticas Puras',
-    'math-status': 'UTFPR - Universidad Tecnológica Federal de Paraná (Incompleta)',
+    'math-status': 'UEM - Universidad Estatal de Maringá (Incompleta)',
 
     // Portfolio
     'portfolio-label': 'Portafolio:',

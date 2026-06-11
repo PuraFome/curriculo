@@ -22,19 +22,8 @@
     left: auto;
     display: flex;
     flex-direction: row;
-  }
-
-  #theme-toggle {
-    top: 60px;
-    right: 70px;
-    left: auto;
-  }
-  
-  .language-selector {
-    top: 54px;
-    right: 10px;
-    left: auto;
-    position: absolute;
+    flex-wrap: wrap;
+    justify-content: flex-end;
   }
 
   .padding-left {
