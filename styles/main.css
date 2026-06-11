@@ -220,16 +220,6 @@ section:last-of-type {
   /* Aumentado para dar mais espaço antes do footer */
 }
 
-#language-toggle {
-  position: absolute;
-  top: 4px;
-  left: 50px;
-  background: none;
-  border: none;
-  font-size: 24px;
-  cursor: pointer;
-}
-
 .toggle-buttons {
   display: flex;
   flex-direction: row;
@@ -238,8 +228,39 @@ section:last-of-type {
   left: 10px;
 }
 
+.language-selector {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+#language-select {
+  background: transparent;
+  border: 1px solid #555;
+  border-radius: 4px;
+  padding: 2px 4px;
+  font-size: 12px;
+  color: inherit;
+  cursor: pointer;
+  height: 28px;
+}
+
+#language-icon {
+  border-radius: 2px;
+}
+
+body.dark-mode #language-select {
+  background: #1e1e1e;
+  border-color: #555;
+  color: #E0E0E0;
+}
+
+body.dark-mode #language-select option {
+  background: #1e1e1e;
+  color: #E0E0E0;
+}
+
 #theme-toggle,
-#language-toggle,
 #export-pdf {
   background: none;
   border: none;
@@ -247,18 +268,6 @@ section:last-of-type {
   cursor: pointer;
   display: flex;
   align-items: center;
-}
-
-#language-toggle.en img {
-  padding-top: 5px;
-  padding-left: 5px;
-  width: auto;
-  height: 40px;
-}
-
-#language-toggle.pt img {
-  width: auto;
-  height: 50px;
 }
 
 .padding-left {
@@ -302,6 +311,10 @@ body.dark-mode #export-pdf {
 body.dark-mode .skill-category-title {
   color: #7986CB;
   border-bottom-color: #333;
+}
+
+body.dark-mode .skill-item img[src$=".png"] {
+  filter: brightness(1.7) contrast(1.2);
 }
 
 .skill-category-icon {

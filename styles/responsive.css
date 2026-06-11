@@ -30,10 +30,11 @@
     left: auto;
   }
   
-  #language-toggle {
+  .language-selector {
     top: 54px;
     right: 10px;
     left: auto;
+    position: absolute;
   }
 
   .padding-left {

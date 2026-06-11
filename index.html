@@ -2,7 +2,7 @@
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
-    <title>José Samuel - Currículo</title>
+    <title>José Samuel Pereira</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
@@ -22,15 +22,15 @@
     <header>
       <div class="toggle-buttons">
         <button id="theme-toggle">🌙</button>
-        <button id="language-toggle">
-          <img
-            id="language-icon"
-            src="icons/flag_en.png"
-            alt="English"
-            width="24"
-          />
-        </button>
-        <button id="export-pdf" onclick="window.print()" title="Exportar PDF">
+        <div class="language-selector">
+          <img id="language-icon" src="icons/flag_pt.png" alt="Português" width="24" height="16" />
+          <select id="language-select" aria-label="Select language / Selecionar idioma">
+            <option value="pt">Português</option>
+            <option value="en">English</option>
+            <option value="es">Español</option>
+          </select>
+        </div>
+        <button id="export-pdf" title="Exportar PDF">
           <span class="material-icons-outlined">picture_as_pdf</span>
         </button>
       </div>
@@ -110,43 +110,6 @@
         contribuir de maneira eficaz para projetos desafiadores e o sucesso da
         equipe.
       </p>
-    </section>
-    <section id="sdgs">
-      <h2 id="sdgs-title">ODS que pretendo contribuir</h2>
-      <div class="grid-container">
-        <figure>
-          <img
-            id="SDG4"
-            src="figs/objetivo-4.svg"
-            alt="Objetivo 4"
-            width="100"
-          />
-        </figure>
-        <figure>
-          <img
-            id="SDG5"
-            src="figs/objetivo-5.svg"
-            alt="Objetivo 5"
-            width="100"
-          />
-        </figure>
-        <figure>
-          <img
-            id="SDG7"
-            src="figs/objetivo-7.svg"
-            alt="Objetivo 7"
-            width="100"
-          />
-        </figure>
-        <figure>
-          <img
-            id="SDG8"
-            src="figs/objetivo-8.svg"
-            alt="Objetivo 8"
-            width="100"
-          />
-        </figure>
-      </div>
     </section>
     <section id="skills">
       <h2 id="skills-title">Habilidades</h2>
@@ -389,9 +352,7 @@
             target="_blank"
             id="project-educacao-livre"
             >Educação Livre</a
-          >
-          - Página web que conecta tutores voluntários com pessoas que querem
-          aprender, oferecendo cursos e monitorias.
+          ><span id="project-educacao-livre-desc" class="project-desc"></span>
         </li>
         <li>
           <a
@@ -399,10 +360,7 @@
             target="_blank"
             id="project-email-bot"
             >Email Bot</a
-          >
-          - Aplicação Flask que envia emails e rastreia aberturas usando um
-          pixel de rastreamento, configurada para rodar em Docker e implantada
-          no Google Cloud Run.
+          ><span id="project-email-bot-desc" class="project-desc"></span>
         </li>
         <li>
           <a
@@ -410,10 +368,7 @@
             target="_blank"
             id="project-workspaces"
             >Workspaces</a
-          >
-          - Repositório para registrar a evolução no uso da ferramenta NX, bem
-          como em Typescript, NestJS e React, além do uso de CI e testes
-          unitários.
+          ><span id="project-workspaces-desc" class="project-desc"></span>
         </li>
         <li>
           <a
@@ -421,9 +376,7 @@
             target="_blank"
             id="project-purepages"
             >PurePages</a
-          >
-          - Monorepositório usando NX para criar múltiplas landing pages em
-          curto período de tempo, reaproveitando componentes entre as páginas.
+          ><span id="project-purepages-desc" class="project-desc"></span>
         </li>
       </ul>
     </section>
