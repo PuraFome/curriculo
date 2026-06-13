@@ -51,6 +51,16 @@ const translations = {
     'skill-cat-infra': 'Infra & Ferramentas',
     'skill-cat-languages-spoken': 'Idiomas',
 
+    // Spoken language items
+    'skill-spoken-portuguese': 'Português (Nativo)',
+    'skill-spoken-english': 'Inglês (Intermediário)',
+    // Data skills
+    'skill-data-modelagem': 'Modelagem de Banco de Dados',
+    // Language selector options
+    'lang-opt-pt': 'Português',
+    'lang-opt-en': 'Inglês',
+    'lang-opt-es': 'Espanhol',
+
     // Math degree
     'math-degree': 'Bacharelado em Matemática Pura',
     'math-status': 'UEM - Universidade Estadual de Maringá (Incompleto)',
@@ -137,6 +147,16 @@ const translations = {
     'skill-cat-data': 'Data',
     'skill-cat-infra': 'Infra & Tools',
     'skill-cat-languages-spoken': 'Languages',
+
+    // Spoken language items
+    'skill-spoken-portuguese': 'Portuguese (Native)',
+    'skill-spoken-english': 'English (Intermediate)',
+    // Data skills
+    'skill-data-modelagem': 'Database Modeling',
+    // Language selector options
+    'lang-opt-pt': 'Portuguese',
+    'lang-opt-en': 'English',
+    'lang-opt-es': 'Spanish',
 
     // Math degree
     'math-degree': 'Bachelor\'s in Pure Mathematics',
@@ -225,6 +245,16 @@ const translations = {
     'skill-cat-infra': 'Infra y Herramientas',
     'skill-cat-languages-spoken': 'Idiomas',
 
+    // Spoken language items
+    'skill-spoken-portuguese': 'Portugués (Nativo)',
+    'skill-spoken-english': 'Inglés (Intermedio)',
+    // Data skills
+    'skill-data-modelagem': 'Modelado de Base de Datos',
+    // Language selector options
+    'lang-opt-pt': 'Portugués',
+    'lang-opt-en': 'Inglés',
+    'lang-opt-es': 'Español',
+
     // Math degree
     'math-degree': 'Licenciatura en Matemáticas Puras',
     'math-status': 'UEM - Universidad Estatal de Maringá (Incompleta)',
@@ -282,7 +312,10 @@ document.addEventListener('DOMContentLoaded', () => {
     'exp-int-1', 'exp-int-2', 'exp-int-3',
     'project-educacao-livre-desc', 'project-email-bot-desc',
     'project-workspaces-desc', 'project-purepages-desc',
-    'footer-text'
+    'footer-text',
+    'skill-spoken-portuguese', 'skill-spoken-english',
+    'skill-data-modelagem',
+    'lang-opt-pt', 'lang-opt-en', 'lang-opt-es'
   ];
 
   const IMG_SRC_IDS = ['language-icon'];
