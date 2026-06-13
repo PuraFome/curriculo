@@ -10,5 +10,6 @@ package-lock.json
 
 # Playwright temp artifacts
 .playwright-mcp/
+node_modules/
 
 
