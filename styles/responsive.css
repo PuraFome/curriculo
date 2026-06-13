@@ -22,7 +22,7 @@
     left: auto;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: flex-end;
   }
 
@@ -61,4 +61,10 @@
     align-items: flex-start;
   }
 
+  #theme-toggle, #export-pdf { font-size: 32px; }
+  header h1 { font-size: 1.8em; }
+  #language-select { font-size: 14px; height: 34px; }
+  .contact-item { flex-direction: row; }
+  .skill-items .skill-item { flex-direction: row; }
+  .skill-items .skill-item img { width: 18px; height: 18px; }
 }
